@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap'); /* Importa a fonte 'Krona One' do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); /* Importa a fonte 'Montserrat' do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap'); /* Importa a fonte 'Montserrat' com peso 600 do Google Fonts */
+
+* {
+    margin: 0; /* Remove as margens padrão de todos os elementos */
+    padding: 0; /* Remove os preenchimentos padrão de todos os elementos */
+}
+
+body {
+    height: 100vh; /* Define a altura do corpo da página como 100% da altura da janela de visualização */
+    box-sizing: border-box; /* Inclui o padding e a borda no cálculo da largura e altura total dos elementos */
+    background-color: #0D1117; /* Define a cor de fundo da página */
+    color: #F6F6F6; /* Define a cor do texto na página */
+}
+
+.apresentacao {
+    margin: 10% 15%; /* Define a margem da seção de apresentação como 10% no topo e embaixo e 15% nas laterais */
+    display: flex; /* Aplica o modelo de layout flexível à seção de apresentação */
+    align-items: center; /* Alinha os itens ao centro na direção transversal (vertical) */
+    justify-content: space-between; /* Distribui espaço igualmente entre os itens na direção principal (horizontal) */
+}
+
+.titulo-destaque {
+    color: #4F89F5; /* Define a cor do texto dos elementos com a classe 'titulo-destaque' */
+}
+
+.apresentacao__conteudo {
+    width: 615px; /* Define a largura do conteúdo da apresentação */
+    display: flex; /* Aplica o modelo de layout flexível ao conteúdo da apresentação */
+    flex-direction: column; /* Alinha os itens em uma coluna */
+    gap: 40px; /* Define um espaço de 40px entre os itens */
+}
+
+.img {
+    width: 488px; /* Define a largura da imagem */
+    max-height: 100vh; /* Define a altura máxima da imagem como 100% da altura da janela de visualização */
+    object-fit: cover; /* Faz a imagem preencher o container mantendo sua proporção */
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px; /* Define o tamanho da fonte do título */
+    font-family: 'Krona One', sans-serif; /* Define a família da fonte como 'Krona One' */
+}
+
+.apresentacao__conteudo__descricao {
+    font-size: 24px; /* Define o tamanho da fonte da descrição */
+    font-family: "Montserrat", sans-serif; /* Define a família da fonte como 'Montserrat' */
+}
+
+.apresentacao__links__subtitulo {
+    font-family: 'Krona One', sans-serif; /* Define a família da fonte do subtítulo como 'Krona One' */
+    font-weight: 400; /* Define o peso da fonte do subtítulo como 400 */
+    font-size: 24px; /* Define o tamanho da fonte do subtítulo */
+}
+
+.apresentacao__conteudo__botao {
+    display: flex; /* Aplica o modelo de layout flexível ao botão de conteúdo */
+    flex-direction: column; /* Alinha os itens em uma coluna */
+    justify-content: space-between; /* Distribui espaço igualmente entre os itens na direção principal (vertical) */
+    align-items: center; /* Alinha os itens ao centro na direção transversal (horizontal) */
+    gap: 32px; /* Define um espaço de 32px entre os itens */
+}
+
+.apresentacao__link__botao {
+    display: flex; /* Aplica o modelo de layout flexível ao botão de link */
+    justify-content: center; /* Alinha os itens ao centro na direção principal (horizontal) */
+    gap: 16px; /* Define um espaço de 16px entre os itens */
+    background-color: #0D1117; /* Define a cor de fundo do botão de link */
+    width: 378px; /* Define a largura do botão de link */
+    text-align: center; /* Alinha o texto ao centro */
+    border-radius: 8px; /* Define bordas arredondadas com um raio de 8px */
+    font-size: 24px; /* Define o tamanho da fonte do botão de link */
+    font-weight: 600; /* Define o peso da fonte do botão de link como 600 */
+    padding: 21.5px 0; /* Define o preenchimento vertical do botão de link */
+    text-decoration: none; /* Remove a decoração do texto (sublinhado) */
+    color: #F6F6F6; /* Define a cor do texto do botão de link */
+    font-family: 'Montserrat', sans-serif; /* Define a família da fonte do botão de link como 'Montserrat' */
+    border: 2px solid #4F89F5; /* Define uma borda de 2px com cor #4F89F5 */
+}
+
+.apresentacao__link__botao:hover{
+    background-color: #272727; /* Muda a cor de fundo do botão de link ao passar o mouse */
+    /* color: ; muda a cor da fonte */
+}
